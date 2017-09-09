@@ -40,7 +40,7 @@ people : Cmd Msg
 people =
     let
         url =
-            "http://api.open-notify.org/astros.json"
+            "https://api.open-notify.org/astros.json"
 
         request =
             Http.get url responseDecoder
