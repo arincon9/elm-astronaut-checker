@@ -9297,7 +9297,7 @@ var _user$project$Main$People = function (a) {
 	return {ctor: 'People', _0: a};
 };
 var _user$project$Main$people = function () {
-	var url = 'http://api.open-notify.org/astros.json';
+	var url = 'https://api.open-notify.org/astros.json';
 	var request = A2(_elm_lang$http$Http$get, url, _user$project$Main$responseDecoder);
 	var cmd = A2(_elm_lang$http$Http$send, _user$project$Main$People, request);
 	return cmd;
